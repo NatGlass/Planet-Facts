@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import Stars from '../assets/background-stars.svg'
 
 export default createGlobalStyle`
     // reset css //
@@ -16,6 +17,10 @@ export default createGlobalStyle`
         max-width: 1440px;
         height: 100vh;
         margin: auto;
+        background: #070724;
+        background-image: url(${Stars});
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     // typography //
