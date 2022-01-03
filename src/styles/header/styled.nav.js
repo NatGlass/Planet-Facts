@@ -4,7 +4,7 @@ export default styled.nav`
     // mobile //
     @media screen and (max-width: 650px){
         position: absolute;
-        top: 75px;
+        top: 100px;
         left: 100%;
         left: ${({open}) => open ? '50%' : '-200%'};
         transform: translateX(-50%);
