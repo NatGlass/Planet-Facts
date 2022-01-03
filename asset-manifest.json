@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/planet-facts/static/js/main.385d35f4.js",
+    "main.js": "/planet-facts/static/js/main.c4c3e4e8.js",
     "static/media/background-stars.svg": "/planet-facts/static/media/background-stars.f6233a6a8d2351c57f2b64289718b309.svg",
     "index.html": "/planet-facts/index.html",
     "static/media/hamburger.svg": "/planet-facts/static/media/hamburger.7252f9bb35b4f001d68a08ec44613b3d.svg",
     "static/media/icon-chevron.svg": "/planet-facts/static/media/icon-chevron.8915cee97f993fb990aac66c578ad575.svg",
-    "main.385d35f4.js.map": "/planet-facts/static/js/main.385d35f4.js.map"
+    "main.c4c3e4e8.js.map": "/planet-facts/static/js/main.c4c3e4e8.js.map"
   },
   "entrypoints": [
-    "static/js/main.385d35f4.js"
+    "static/js/main.c4c3e4e8.js"
   ]
 }
