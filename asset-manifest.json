@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/Planet-Facts/static/js/main.3f76c7f0.js",
+    "main.js": "/Planet-Facts/static/js/main.b048f93b.js",
     "static/media/planet-jupiter-internal.svg": "/Planet-Facts/static/media/planet-jupiter-internal.3087313dbe63fee4c2e97d2c480d6add.svg",
     "static/media/planet-earth-internal.svg": "/Planet-Facts/static/media/planet-earth-internal.3c465186cd11e28615059f051f8ab2c6.svg",
     "static/media/background-stars.svg": "/Planet-Facts/static/media/background-stars.f6233a6a8d2351c57f2b64289718b309.svg",
@@ -21,9 +21,9 @@
     "index.html": "/Planet-Facts/index.html",
     "static/media/hamburger.svg": "/Planet-Facts/static/media/hamburger.7252f9bb35b4f001d68a08ec44613b3d.svg",
     "static/media/icon-chevron.svg": "/Planet-Facts/static/media/icon-chevron.8915cee97f993fb990aac66c578ad575.svg",
-    "main.3f76c7f0.js.map": "/Planet-Facts/static/js/main.3f76c7f0.js.map"
+    "main.b048f93b.js.map": "/Planet-Facts/static/js/main.b048f93b.js.map"
   },
   "entrypoints": [
-    "static/js/main.3f76c7f0.js"
+    "static/js/main.b048f93b.js"
   ]
 }
