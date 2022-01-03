@@ -3,14 +3,14 @@ import StyledLink from '../../styles/header/styled.nav-link'
 export default function NavLinks() {
     return (
         <>
-            <StyledLink to="/" exact activeClassName="active">MERCURY</StyledLink>
-            <StyledLink to="venus" exact activeClassName="active">VENUS</StyledLink>
-            <StyledLink to="/earth" exact activeClassName="active">EARTH</StyledLink>
-            <StyledLink to="/mars" exact activeClassName="active">MARS</StyledLink>
-            <StyledLink to="/jupiter" exact activeClassName="active">JUPITER</StyledLink>
-            <StyledLink to="/saturn" exact activeClassName="active">SATURN</StyledLink>
-            <StyledLink to="/uranus" exact activeClassName="active">URANUS</StyledLink>
-            <StyledLink to="/neptune" exact activeClassName="active">NEPTUNE</StyledLink>
+            <StyledLink to="/" className={({isActive}) => (isActive ? "active" : '')}>MERCURY</StyledLink>
+            <StyledLink to="venus" className={({isActive}) => (isActive ? "active" : '')}>VENUS</StyledLink>
+            <StyledLink to="/earth" className={({isActive}) => (isActive ? "active" : '')}>EARTH</StyledLink>
+            <StyledLink to="/mars" className={({isActive}) => (isActive ? "active" : '')}>MARS</StyledLink>
+            <StyledLink to="/jupiter" className={({isActive}) => (isActive ? "active" : '')}>JUPITER</StyledLink>
+            <StyledLink to="/saturn" className={({isActive}) => (isActive ? "active" : '')}>SATURN</StyledLink>
+            <StyledLink to="/uranus" className={({isActive}) => (isActive ? "active" : '')}>URANUS</StyledLink>
+            <StyledLink to="/neptune" className={({isActive}) => (isActive ? "active" : '')}>NEPTUNE</StyledLink>
         </>
     )
 }
