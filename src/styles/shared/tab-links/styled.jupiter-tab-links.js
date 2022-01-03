@@ -56,11 +56,24 @@ export default styled.span`
     }
 
     // active tab //
+    @media screen and (max-width:650px){
+        &.active-tab-link{
+            opacity: 1;
+        }
+
+        &.active-tab-link::after{
+            content: '';
+            position: absolute;
+            bottom: -17px;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: ${({ theme }) => theme.colors.red};
+        }
+    }
     @media screen and (min-width:651px){
         &.active-tab-link{
             background: ${({ theme}) => theme.colors.red}
         }
 }
-
-
 `
